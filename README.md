@@ -2,10 +2,10 @@
 Recreation of BookMyShow website  "Recommended Movies" section with HMTL, CSS and Javascript.
 
 <br>
-1. First install the dependency and libraries needed for the project, cdn - bootstrap, jquery, and fa fa-icon.
-2. Use GoLive server for live local server. 
-3. Go inside index.html and hit goLive.
-4. Checkout localhost in your browser.
+1. First install the dependency and libraries needed for the project, cdn - bootstrap, jquery, and fa fa-icon.<br>
+2. Use GoLive server for live local server. <br>
+3. Go inside index.html and hit goLive.<br>
+4. Checkout localhost in your browser.<br>
 
 <br>
 Above code by auther @aravind.web.
