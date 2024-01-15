@@ -1,0 +1,168 @@
+<!-- Code by @aravind.web -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyShow Demo</title>
+    <!-- style -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- Bootstrap implementation here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- jquery implementation -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Fa fa-icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <p class="title">Recommended Movies</p>
+
+        <div id="myCarousel" class="carousel slide">
+            <button id="prev" class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
+                data-bs-slide="prev">
+                <span class="fa fa-angle-left" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button id="next" class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+                data-bs-slide="next">
+                <span class="fa fa-angle-right" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            <!-- Wrapper for carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card-deck">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+                            <div class="col mb-4">
+                                <div class="card border-0">
+                                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC8xMCAgMjUuNEsgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00333139-epubenyrac-portrait.jpg"
+                                        alt="captain miller">
+                                    <div class="card-body">
+                                        <p class="movie-name">Captain Miller</p>
+                                        <p class="movie-type">Action/Period/Thriller</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+                                <div class="card border-0">
+                                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ny45LzEwICAxNi43SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00311489-bkdcmheeug-portrait.jpg"
+                                        alt=" ayalaan">
+                                    <div class="card-body">
+                                        <p class="movie-name">Ayalaan</p>
+                                        <p class="movie-type">Action/Comnedy/Sci-Fi</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+                                <div class="card border-0">
+                                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS42LzEwICAxNTMuMUsgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00311673-hgpjragdze-portrait.jpg"
+                                        alt="hanu-man">
+                                    <div class="card-body">
+                                        <p class="movie-name">Hanu-Man</p>
+                                        <p class="movie-type">Action/Adventure/Fantasy</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+                                <div class="card border-0">
+                                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ni42LzEwICAxMzUuM0sgVm90ZXM%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00310760-uptdwxjtpu-portrait.jpg"
+                                        alt="guntur kaaram">
+                                    <div class="card-body">
+                                        <p class="movie-name">Guntur Kaaram</p>
+                                        <p class="movie-type">Action/Drama</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+                                <div class="card border-0">
+                                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-Ny44LzEwICAxOC4zSyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00348399-dlwrzqasxw-portrait.jpg"
+                                        alt="merry chirstmas">
+                                    <div class="card-body">
+                                        <p class="movie-name">Merry Chirstmas</p>
+                                        <p class="movie-type">Drama/Thriller</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card-deck">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+                            <div class="col mb-4">
+                                <div class="card border-0">
+                                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC4yLzEwICA0LjRLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00382276-vhgjlutkps-portrait.jpg"
+                                        alt="mission">
+                                    <div class="card-body">
+                                        <p class="movie-name">Mission Chaper 1</p>
+                                        <p class="movie-type">Action/Thriller</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+                                <div class="card border-0">
+                                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC41LzEwICAxNi4xSyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00350932-msfzkegjyg-portrait.jpg"
+                                        alt=" Saindhav">
+                                    <div class="card-body">
+                                        <p class="movie-name">Saindhav</p>
+                                        <p class="movie-type">Action/Drama</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+                                <div class="card border-0">
+                                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC4zLzEwICAxMy4ySyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00369336-fsfapfkbfg-portrait.jpg"
+                                        alt="Naa Saami Ranga">
+                                    <div class="card-body">
+                                        <p class="movie-name">Naa Saami Ranga</p>
+                                        <p class="movie-type">Action/Drama/Thriller</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+                                <div class="card border-0">
+                                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OC4yLzEwICAxMi44SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00382570-acnkgqlgtx-portrait.jpg"
+                                        alt="Abraham Ozler">
+                                    <div class="card-body">
+                                        <p class="movie-name">Abraham Ozler</p>
+                                        <p class="movie-type">Crime/Drama/Thriller</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+                                <div class="card border-0">
+                                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS4xLzEwICAzLjhLIFZvdGVz,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00365212-dczxkgbxej-portrait.jpg"
+                                        alt="Migration">
+                                    <div class="card-body">
+                                        <p class="movie-name">Migration</p>
+                                        <p class="movie-type">Animation/Comedy</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

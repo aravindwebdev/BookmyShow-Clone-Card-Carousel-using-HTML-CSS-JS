@@ -1,0 +1,95 @@
+/* Code by aravind.web */
+
+/* Importing Roboto font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Setting the default font for the body */
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
+/* Styling the container */
+.container{
+    margin-top: 100px;
+}
+
+/* Styling the title */
+.title{
+    word-break: break-word;
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.17;
+}
+
+/* Styling the images */
+img{
+    border-radius: 2%;
+}
+
+/* Styling the movie name */
+.movie-name{
+    margin-bottom: 4px;
+    word-break: break-word;
+    color: #222;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.33;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+/* Styling the movie type */
+.movie-type{
+    word-break: break-word;
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+/* Styling the carousel */
+.carousel {
+    margin: 30px auto 60px;
+}
+
+/* Styling the previous and next buttons */
+#prev, #next {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #999;
+    opacity: 100%;
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50%);
+}
+
+/* Positioning the previous button */
+#prev {
+    left: -22px;
+}
+
+/* Positioning the next button */
+#next {
+    right: -22px;
+}
+
+/* Styling the carousel control icons */
+.carousel-control-prev span, .carousel-control-next span {
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-shadow: none;
+    font-weight: 600;
+}
